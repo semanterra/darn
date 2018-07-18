@@ -1,6 +1,4 @@
-This is one way of using yarn + lerna.
-
-Builds are always
+This is one way of using yarn + lerna with typescript.
 
 See `packages/someclient/src/main.ts` for top level.
 
@@ -10,5 +8,5 @@ To add that:
 different output directory.
 * add scripts to package.jsons
 
-Note that with multiple buildmodes, imports using index.ts don't work, because lib/index.js is explicitly pointed at by the package's package.json
+Note that with multiple output directories, imports using index.ts probably don't work, because lib/index.js is explicitly pointed at by the package's package.json
 
