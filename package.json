@@ -1,9 +1,9 @@
 {
-	"private": true,
-	"workspaces": [
-		"packages/somelib",
+    "private": true,
+    "workspaces": [
+        "packages/somelib",
         "packages/someclient"
-	],
+    ],
     "scripts": {
         "bootstrap": "lerna bootstrap",
         "test": "lerna run test",
@@ -11,9 +11,8 @@
         "clean": "rimraf packages/**/lib"
     },
     "devDependencies": {
-        "lerna": "^2.11.0",
+        "lerna": "^3.0.4",
         "rimraf": "^2.6.2",
-        "typescript": "^2.9.2"
+        "typescript": "^3.0.1"
     }
 }
-

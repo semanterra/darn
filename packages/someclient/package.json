@@ -4,7 +4,8 @@
     "description": "",
     "main": "lib/main.js",
     "scripts": {
-        "prepare": "tsc -p tsconfig.json"
+        "prepare": "tsc -p tsconfig.json",
+        "start": "node lib/main.js"
     },
     "keywords": [],
     "author": "",

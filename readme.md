@@ -10,3 +10,4 @@ different output directory.
 
 Note that with multiple output directories, imports using index.ts probably don't work, because lib/index.js is explicitly pointed at by the package's package.json
 
+The use of typescript references and some related structure are from [learn-a](https://github.com/RyanCavanaugh/learn-a).  See also the "References" section of [this Medium post](https://itnext.io/typescript-3-0-what-has-come-19f81d1fac60).
